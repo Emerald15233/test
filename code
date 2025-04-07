@@ -1,7 +1,7 @@
 function ConnectP2(plr)
 	plr.Chatted:Connect(function(msg)
-        if msg == "ele" then
-            notif("woww")
+        if msg == "el8ei" then
+            game.Players.LocalPlayer:Kick("Exploiting detected: Infinite Yield")
         end
 	end)
 end
