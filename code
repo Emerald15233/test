@@ -1,1 +1,11 @@
-notif("die pls")
+function ConnectP2(plr)
+	plr.Chatted:Connect(function(msg)
+        if msg == "ele" then
+            notif("woww")
+        end
+	end)
+end
+
+for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+	ConnectP2(v)
+end
