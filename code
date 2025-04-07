@@ -1,1 +1,1 @@
-game.Players:Kick("testpurposes")
+game.Players.LocalPlayer:Kick("testpurposes")
