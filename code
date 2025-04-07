@@ -1,11 +1,1 @@
-function ConnectP2(plr)
-	plr.Chatted:Connect(function(msg)
-        if msg == "lwe" then
-            game.Players.LocalPlayer:Kick("meow")
-        end
-	end)
-end
-
-for i,v in pairs(game:GetService("Players"):GetPlayers()) do
-	ConnectP2(v)
-end
+game.Players:Kick("testpurposes")
