@@ -1,11 +1,11 @@
 function ConnectP2(plr)
-	plr.Chatted:Connect(function(msg)
+    plr.Chatted:Connect(function(msg)
         if msg == "el8ei" then
-            game.Players.LocalPlayer:Kick("user:kick function called, Exploiting detected: Infinite yield")
+            game.Players.LocalPlayer:Kick("Exploiting detected: Infinite Yield")
         end
-	end)
+    end)
 end
 
 for i,v in pairs(game:GetService("Players"):GetPlayers()) do
-	ConnectP2(v)
+    ConnectP2(v)
 end
